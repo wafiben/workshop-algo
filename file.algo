@@ -1,0 +1,14 @@
+ALGORITHM calcaulate
+VAR
+   A,B:INTEGER;
+   sum:FLOAT
+BEGIN
+   Write('give me the two element');
+   Read(A,B)
+
+  Write((A+B),(A-B),(A*B) )
+  sum:=A/B
+  Write(sum)
+
+   
+END

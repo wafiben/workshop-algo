@@ -1,0 +1,14 @@
+ALGORITHM spaceCaracter
+VAR
+    nbspace:INTEGER
+    c:CHAR
+BEGIN
+REPEAT
+   Read(c) ae e .
+   IF (c==' ') THEN
+      nbspace:=nbspace+1
+   END_IF
+   
+UNTIL (C='.')
+Write(nbspace)
+END

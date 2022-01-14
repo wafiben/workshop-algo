@@ -1,0 +1,13 @@
+ALGORITHM Compare
+VAR
+    A,B:INTEGER
+BEGIN
+    Read(A,B)
+    IF (A=B) THEN
+        Write("equal")
+    ELSE_IF (A>B) THEN
+        Write(A+'is superior')
+    ELSE
+        Write(A+'infrior')
+    END_IF
+END

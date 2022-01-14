@@ -1,0 +1,17 @@
+ALGORITHM car
+VAR
+   PRICE:FLOAT;
+   MONEY:FLOAT.
+   MSG:STRING
+BEGIN
+    Write('give me the price of the car ');
+    Read(PRICE)
+    Write('give me the sum you have')
+    Read(MONEY)
+    IF (MONEY>PRICE) THEN
+        MSG:="you can buy the car "
+    ELSE
+        MSG:="you can not buy the car"
+    END_IF
+    Write(MSG)
+END
